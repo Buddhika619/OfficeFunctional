@@ -11,7 +11,7 @@ export interface HeroListProps {
   children: React.ReactNode;
 }
 
-const HeroList: React.FC<HeroListProps> = ({ message, items, children }: HeroListProps): ReactElement => {
+const HeroList = ({ message, items, children }: HeroListProps): ReactElement => {
   const listItems = items.map((item, index) => (
     <li className="ms-ListItem" key={index}>
       <i className={`ms-Icon ms-Icon--${item.icon}`}></i>

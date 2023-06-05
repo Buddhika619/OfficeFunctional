@@ -7,7 +7,7 @@ export interface ProgressProps {
   title: string;
 }
 
-const Progress: React.FC<ProgressProps> = ({ logo, message, title }: ProgressProps): ReactElement => {
+const Progress = ({ logo, message, title }: ProgressProps): ReactElement => {
   return (
     <section className="ms-welcome__progress ms-u-fadeIn500">
       <img width="90" height="90" src={logo} alt={title} title={title} />

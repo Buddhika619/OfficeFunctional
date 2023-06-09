@@ -1,6 +1,5 @@
 import React, { ReactElement, useEffect, useState } from "react";
 import { DefaultButton } from "@fluentui/react";
-import Header from "./Header";
 import HeroList, { HeroListItem } from "./HeroList";
 import Progress from "./Progress";
 

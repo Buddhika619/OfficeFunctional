@@ -16,23 +16,15 @@ const App = ({ title, isOfficeInitialized }: AppProps): ReactElement => {
   useEffect(() => {
     setListItems([
       {
-        icon: "Ribbon",
-        primaryText: "Achieve more with Office integration",
         url: "https://cdn.glitch.global/04ac2eab-7093-47ad-976f-739938dcbb74/pulp-fiction-john-travolta.gif?v=1667742225377",
       },
       {
-        icon: "Unlock",
-        primaryText: "Unlock features and functionality",
         url: "https://uploads-ssl.webflow.com/63d9004a7de2b71ce6d5f83b/63eca414da25f1e270f5deb8_6213b19fae7ebd8f1962e96c_2%255B1%255D.png",
       },
       {
-        icon: "Design",
-        primaryText: "Create and visualize like a pro",
         url: "https://media.tenor.com/HGPmx7TvfYAAAAAd/drawify-man.gif",
       },
       {
-        icon: "Design",
-        primaryText: "Create and visualize like a pro",
         url: "https://cdn.glitch.global/51637606-60d9-484c-a941-c3ad0567928a/7a299d06-06b7-4831-97ab-2fc34607fa81.png?v=1686167167966",
       },
     ]);

@@ -3,8 +3,6 @@ import React, { ReactElement } from "react";
 /* global console,fetch, Office, */
 
 export interface HeroListItem {
-  icon: string;
-  primaryText: string;
   url: string;
 }
 
